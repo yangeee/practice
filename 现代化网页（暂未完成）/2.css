@@ -1,43 +1,145 @@
-#l1{
-	background-color: #c77eb5;
-}
+
 body{
-	background-color: #78cdd1;
+	background-color: #72777b;
 	margin:0;
-    padding:0;
+    padding-top:0px;
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
 }
-#ul1{
-	padding: 5px 120px 5px 0px;
+.navbar-brand{
+  margin-right: 300px;
 
 }
-#p1{
-    margin:0 auto;
-	width:700px;
-	height:300px;
-	background-color:#ff9900;
-	-moz-box-shadow: 10px 10px 5px #888888;
-	box-shadow: 10px 10px 5px #888888;
-	img {
-      border-radius:50%;
-      margin:30px 0 10px;
-      max-width:80%;
-      height:auto;
-      width:250px;
-    }
+
+.top{
+  margin-bottom: 30px;
 }
+
 #p11{
-	padding-top: 80px;
+	padding-top: 130px;
 	font-size: 20px;
-	color:white;
-    max-width:675px;
-    text-align:center;
-    margin-top:0px;
-    @media(min-width:1023px) {
-      text-align:right;
-      width:610px;
+	background-color:#d3d7d4;
+  
+  text-align:center;
+  margin-top:0px;
+  height: 500px;
 }
-nav{
-	margin: 0px;
+#p1{
+  margin-top: 40px;
+  font-family:"华文楷体";
+  font-size: 30px;
 }
+#p2{
+  font-size: 1em;
+  text-align: left;
+  font-weight: bold;
+  margin-left: 50px;
+}
+#yuan{
+  border-radius:50%;
+}
+
+
+#p12{
+  padding-top: 50px;
+  font-size: 20px;
+  background-color:#f6f5ec;
+  font-color:gray;
+  text-align:center;
+  margin-top:0px;
+  height: 1300px;
+}
+
+#p13{
+  padding-top: 50px;
+  font-size: 30px;
+  background-color:#f6f5ec;
+  text-align:center;
+  margin-top:0px;
+  height: 800px;
+}
+#p13 p{
+  font-family: "宋体"
+}
+#y1{
+  font-style: italic;
+}
+#p14{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 30px;
+  background-color:#867892;
+  margin-top:0px;
+  height: 300px;
+}
+#p141{
+  margin-left: 400px;
+  color: white;
+
+}
+#p142{
+  position: relative;
+  margin-left: 1200px;
+  display: inline;
+}
+.btn-circle {
+   width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+#c1{
+  padding-top: 50px;
+}
+#h11{
+  margin-top: 70px;
+}
+div h1{
+  color: gray;
+}
+.hrr{
+  margin: 40px auto 0px;
+    padding: 0;
+    max-width: 512px;
+    border: 0;
+    border-top: solid 5px;
+    
+}
+.i1{
+      display: inline-block;
+      position: relative;
+      top: -.6em;
+      padding: 0 .25em;
+      font-size: 2em;
+      right: -280px;
+}
+.i2{
+   position: relative;
+   display: inline-block;
+   top:0.2em;
+   margin-bottom: 40px;
+}
+
+img{
+  max-width:90%;
+  height:auto;
+  display:block;
+  text-align:center;
+}
+div hr{
+   border:1px solid gray;
+
+}
+
+.line {
+letter-spacing: -1px;
+color: #aa3333; 
+ }
+.line span{
+ letter-spacing: 0;
+ margin: 0 10px;
+color: #000000;
+
+ }

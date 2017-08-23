@@ -7,27 +7,143 @@
 	<title>AOYE</title>
 	<link href="C:\Users\Administrator\Desktop\bootstrap\css\bootstrap.min.css" rel="stylesheet">
 	<link href="2.css" rel="stylesheet" type="text/css">
+	<link href="C:\Users\Administrator\Desktop\bootstrap\font-awesome-4.7.0\css\font-awesome.min.css" rel="stylesheet">
 </head>
+<body>
 
 
-<body class="container-fiuld">
-	<nav class="navbar navbar-default" role="navigation">
+<!--                导航条                  -->
+
+	<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+	<div class="container"><!-- 让导航条设置成偏左样式 -->
 		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		    	<span class="sr-only">Toggle navigation</span>
+		    	<span class="icon-bar"></span>
+		    	<span class="icon-bar"></span>
+		    	<span class="icon-bar"></span>
+		    </button>
 			<a class="navbar-brand" href="#">AOYE</a>
 		</div>
-		<div>
-			<ul class="nav navbar-nav navbar-right" id="ul1">
-				<li id="l1"><a href="#" >个人简介</a></li>
-				<li id="l2"><a href="#" >PORTFOLIO</a></li>
-				<li id="l3"><a href="#" >联系我</a></li>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="#">个人简介</a></li>
+				<li><a href="#">PORTFOLIO</a></li>
+				<li><a href="#" >联系我</a></li>
 			</ul>
 		</div>
+		</div>
 	</nav>
-	<div id="p1">
-			<p id="p11">湖南工业大学大一学生，主修前端方向，目前水平很菜，但是努力认真，热爱钻研，未来的前后端攻城狮，拥有一颗想把代码化为艺术的心。ovo</p>
-			<img src="C:\Users\Administrator\Desktop\11111.jpg">
+
+
+<!--            第一部分              -->
+	<div class="container" id="p11">
+	<div class="row">
+			<div class="col-md-8" id="p1">湖南工业大学大一学生，主修前端方向，目前水平很菜，但是努力认真，热爱钻研，拥有一颗想把代码化为艺术的心。平常热爱运动，喜欢看悬疑电影。
+			<hr class="hrr">
+			<i class="fa fa-code fa-lg i1"></i>
+			<p id=p2>Web Developer - User Experience Designer - AOYE</p>
+			</div>
+			
+			<div class="col-md-4"><img src="C:\Users\Administrator\Desktop\11111.jpg" id="yuan"></div>
+    </div>
+    
+    </div>
+    
+<!--           第二部分          -->
+    <div class="container" id="p12">
+    	<h1>PORTFOLIO</h1>
+    	<hr class="hrr">
+    <i class="fa fa-code fa-2x i1"></i></hr>
+    <div class="container">
+
+    <div class="row top">
+    <div class="col-md-6">
+    	<img src="C:\Users\Administrator\Desktop\练习代码\现代化网页（暂未完成）\images\1.jpg">
+    </div>
+    <div class="col-md-6">
+    	<img src="C:\Users\Administrator\Desktop\练习代码\现代化网页（暂未完成）\images\2.jpg">
+    </div>
     </div>
 
+    
+    <div class="row top">
+    <div class="col-md-6">
+    	<img src="C:\Users\Administrator\Desktop\练习代码\现代化网页（暂未完成）\images\3.jpg">
+    </div>
+    <div class="col-md-6">
+    	<img src="C:\Users\Administrator\Desktop\练习代码\现代化网页（暂未完成）\images\4.jpg">
+    </div>
+    </div>
+
+    <div class="row top">
+    <div class="col-md-6">
+    	<img src="C:\Users\Administrator\Desktop\练习代码\现代化网页（暂未完成）\images\5.jpg">
+    </div>
+    <div class="col-md-6">
+    	<img src="C:\Users\Administrator\Desktop\练习代码\现代化网页（暂未完成）\images\6.jpg">
+    </div>
+    </div> 
+    </div>
+    </div>
+
+ <!--         第三部分      -->
+    <div class="container" id="p13">
+    <hr> 
+    <h1 id="h11">CONTACT ME</h1>
+    <div class="line">
+   ——————————<span><i class="fa fa-code fa-2x i2"></i></span>——————————
+</div>
+
+<div class="container">
+    <div class="row">
+    <div class="col-md-4">
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Your Name</label>
+    <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Name">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">E-mail</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail">
+  </div>
+  <div class="form-group">
+   <label for="exampleInputText">Phone Number</label>
+    <input type="text" class="form-control" id="exampleInputText" placeholder="">
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+<div class="col-md-2"></div>
+<div class="col-md-5">
+<p>每天做一点也做到这了，但是还有很多疑问和BUG。感觉自己基础还是不够扎实，这一次的模仿中学到了很多。bootstrap用的不熟练，遇见BUG时会感到焦躁，当然起步总是最艰难的。--<span id="y1">try my best</span></p><br>
+<p >By:Aoye</p>
+</div>
+</div>
+</div>
+</div>
+
+<!--         第四部分      -->
+<div class="container-fluid" id="p14">
+  <div id="p141">
+  <h2>ABOUT THIS PAGE</h2><br>
+  <p>Made with<i class="fa fa-music"></i>and <i class="fa fa-coffee"></i></p>
+   
+</div>
+
+<div  id="p142">
+<h2>AROUND THE WEB</h2>
+<button type="button" class="btn btn-primary btn-circle"><i class="glyphicon glyphicon-list"></i></button>
+
+
+
+
+
+
+
+</div>
+</div>
 
 
 
@@ -39,6 +155,14 @@
 
 
 
+
+
+
+
+
+
+
+    
 			<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
 			<script src="C:\Users\Administrator\Desktop\bootstrap\js\bootstrap.min.js"></script>
 		</body>
