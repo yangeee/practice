@@ -66,29 +66,56 @@ body{
 }
 #p14{
   padding-top: 50px;
-  padding-bottom: 50px;
   font-size: 30px;
-  background-color:#867892;
+  background-color: #7bbfea;
   margin-top:0px;
   height: 300px;
 }
 #p141{
-  margin-left: 400px;
   color: white;
 
 }
 #p142{
-  position: relative;
-  margin-left: 1200px;
-  display: inline;
+ color: white;
 }
-.btn-circle {
-   width: 50px;
-  height: 50px;
-  padding: 10px 16px;
-  font-size: 18px;
-  line-height: 1.33;
-  border-radius: 25px;
+.myButton {
+  -moz-box-shadow: 0px 0px 0px 0px #f0f7fa;
+  -webkit-box-shadow: 0px 0px 0px 0px #f0f7fa;
+  box-shadow: 0px 0px 0px 0px #f0f7fa;
+  background-color:#867892;
+  -moz-border-radius:42px;
+  -webkit-border-radius:42px;
+  border-radius:42px;
+  border:3px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #5b6178;
+  transition-duration: 0.5s;
+  padding:10px 10px;
+}
+.b1{
+  padding:10px 14px;
+}
+.b2{
+  padding: 10px 13px;
+}
+.myButton:hover {
+  background-color:#ffffff;
+}
+.myButton:active {
+ 
+}
+footer{
+  height: 100px;
+  background-color:#867892 ;
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  font-size: 30px;
 }
 #c1{
   padding-top: 50px;
