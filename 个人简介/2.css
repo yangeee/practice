@@ -1,6 +1,6 @@
 
 body{
-	background-color: #72777b;
+	background-color: #d5c59f;
 	margin:0;
     padding-top:0px;
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -8,7 +8,6 @@ body{
 }
 .navbar-brand{
   margin-right: 300px;
-
 }
 
 .top{
@@ -18,7 +17,7 @@ body{
 #p11{
 	padding-top: 130px;
 	font-size: 20px;
-	background-color:#d3d7d4;
+	background-color:#deab8a;
   
   text-align:center;
   margin-top:0px;
@@ -36,7 +35,10 @@ body{
   margin-left: 50px;
 }
 #yuan{
-  border-radius:50%;
+  border-radius:70%;
+  position: relative;
+  top:1.5em;
+  left: 2.5em;
 }
 
 
@@ -170,3 +172,6 @@ color: #aa3333;
 color: #000000;
 
  }
+li{
+  cursor: pointer;
+}
