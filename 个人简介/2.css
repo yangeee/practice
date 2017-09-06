@@ -13,16 +13,65 @@ body{
 .top{
   margin-bottom: 30px;
 }
-
 #p11{
 	padding-top: 130px;
 	font-size: 20px;
 	background-color:#deab8a;
-  
   text-align:center;
   margin-top:0px;
   height: 500px;
 }
+@media screen and (max-width: 975px){
+  #p11{
+  padding-top: 130px;
+  font-size: 20px;
+  background-color:#deab8a;
+  text-align:center;
+  margin-top:0px;
+  height: 700px;
+  }
+  #yuan{
+    margin-left: 230px;
+    width:200px;
+    height:200px;
+  }
+  #p12{
+  padding-top: 50px;
+  font-size: 20px;
+  background-color:#f6f5ec;
+  font-color:gray;
+  text-align:center;
+  margin-bottom:0px;
+  height: 2200px;
+  }
+  img{
+  width:500px;
+  height:500px;
+  margin-left: 100px;
+}
+  #p13{
+  padding-top: 50px;
+  font-size: 30px;
+  background-color:#f6f5ec;
+  text-align:center;
+  height: 2800px;
+  margin-top: 20px;
+}
+#p14{
+  padding-top: 50px;
+  font-size: 30px;
+  background-color: #7bbfea;
+  margin-top:0px;
+  height: 300px;
+}
+
+}
+
+
+
+
+
+
 #p1{
   margin-top: 40px;
   font-family:"华文楷体";
@@ -156,6 +205,7 @@ img{
   height:auto;
   display:block;
   text-align:center;
+  margin:15px 0;
 }
 div hr{
    border:1px solid gray;
