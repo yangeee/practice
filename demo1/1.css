@@ -1,6 +1,10 @@
 body{
 	font-size: 16px;
 }
+.class{
+	clear:both;
+}
+/*     导航栏       */
 #banner{
 	color: white;
 	height:80px;
@@ -26,25 +30,11 @@ body{
 .navbar-nav a{
 	margin-top: 20px;
 }
-#section1{
-	display:-webkit-box;
-    display:-ms-flexbox;
-	display: flex;
-	flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: #252A2E;
-}
 main{
 	margin-top: 80px;
 }
 main img{
 	margin-top: 80px;
-}
-#p1{
-	width:20%;
-	margin: 1em 15em 0 -15em;
-	color: white;
 }
 h1{
 	font-size: 20px;
@@ -72,20 +62,36 @@ h1{
 	background-color:#0688fa;
 	text-decoration:none;
 }
-#p1 a:last-child{
+/*          index第一部分       */
+#section1{
+	display:-webkit-box;
+    display:-ms-flexbox;
+	display: flex;
+	flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #252A2E;
+}
+#s1d{
+	width:20%;
+	margin: 1em 15em 0 -1em;
+	color: white;
+}
+#s1d a:last-child{
 	margin-left: 20%;
 	font-size: 1.5em;
 	transition-duration: 0.5s;
 }
-#p1 a:last-child:hover{
+#s1d a:last-child:hover{
 	color: #9B59B6;
 	text-decoration: none;
 }
 
-#p1 a:last-child:visited{
+#s1d a:last-child:visited{
     color: white;
     text-decoration: none;
 }
+/*     index第二部分       */
 #section2{
 	display: flex;
 	flex-flow: row wrap;
@@ -108,11 +114,13 @@ h1{
 	margin-left: 30%;
 	margin-top: 30%;
 }
+/*          底栏         */
 footer{
   background-color:#252A2f;
   padding:10px 0 0 10px;
   color: white;
   font-size: 25px;
+  clear: both;
 }
 .icon1{
   padding:12px 14px;
@@ -123,15 +131,16 @@ footer{
 .icon3{
   padding: 12px 10px;
 }
-footer div:first-child{
+footer div:first-child {
 	display: inline-block;
 	margin-left: 20%;
 	color: #9b59b6; 
 }
 #sign{
    display: inline-block;
-   margin-left: 30%;
+   margin-left: 20%;
 }
+/*       第二、三栏总体       */
 #section3 div:first-child{
    font-size: 3em;
    font-weight: bold;
@@ -147,22 +156,41 @@ footer div:first-child{
    text-align: center;
    padding: 0.3em 0 0.3em 0;
 }
+/*         about第二部分       */
 #section4{
-	display: flex;
-	flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    padding-top: 2em;
+     padding:2% 20% 5% 20%;
 }
 #section4 img{
 	margin-top: 1em;
 }
-#s4d{
-	margin-left: 6em;
+#s4d1{
+	float: left;
+	width: 40%;
+	margin-bottom: 5em;
 }
+#s4d2{
+	width: 40%;
+	float: left;
+	margin-left: 120px;
+}
+.progress-title{
+	float: left;
+	font-size: 1.5em;
+}
+
+.progress-number{
+	float: right;
+	font-size: 1.5em;
+}
+#s4d2 div{
+	width: 100%;
+	height: 10px;
+	float: left;
+}
+/*         about第三部分           */
 #section5{
-	margin-top: 6em;
     text-align: center;
+   clear: both;
 }
 #s5d{
 	display: flex;
@@ -197,6 +225,7 @@ footer div:first-child{
 	opacity: 0.6;
  	background-color: #9b59b6;
 }
+/*           details第二部分         */
 #section6{
 	padding-top: 2%;
 	padding-left: 25%;
@@ -210,7 +239,8 @@ footer div:first-child{
 }
 #s6d img{
 	margin-top: 2em;
-	margin-bottom: 2em; 
+	margin-bottom: 2em;
+	max-width: 100%; 
 }
 .s6p{
    line-height: 1.5em;
@@ -219,7 +249,8 @@ footer div:first-child{
 	color: yellow;
 }
 #s6d button a:hover,
-#s6d a:hover{
+#s6d a:hover,
+#section7 a:hover{
  	text-decoration: none;
 
 }
@@ -229,97 +260,237 @@ footer div:first-child{
 #s6d button:hover{
 	background-color: #9359b6;
 }
+/*         blog第二部分          */
+#section7{
+    padding-left: 20%;
+    padding-top: 3em;
+}
+#s7d{
+	width: 50%;
+	float: left;
+}
+#s7d img{
+	margin:1em 0 3em 0;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.flx-skill {
-	padding: 2.3em 0em;
+}
+#s7d h2{
+	clear: both;
+}
+#s7d li{
+	list-style: none;
+	margin-bottom: 1em;
+}
+.s7d1{
+	float: left;
+	margin-right: 5em;
 }
 
-.flx-skill > div {
-	height: 10px;
+.s7d2{
+    float:left;
+    width: 40%;
+}
+/*          blog第三部分         */
+#s8d{
+	float: left;
+	margin-top:2em; 
+	position: relative;
+}
+#s8d h2{
+	color:  #485460;
+}
+#s8d input{
+	width: 100%;
+	height:2em;
+	border:1px solid #D8D8D8;
+}
+#s8df1 img{
+ 	margin: 0;
+ 	position: absolute;
+ 	top: -0.2em;
+ 	left: 16em;
+}
+#facebook{
+	padding: 0.8em 1.1em;
+	background-color: #627aab;
+}
+#twitter{
+	padding: 0.8em 0.9em;
+	margin-left: 0.6em;
+}
+#google{
+	padding: 0.8em 0.7em;
+	margin-left: 0.6em;
+	background-color: #e96f67;
+}
+#facebook:hover,
+#twitter:hover,
+#google:hover{
+	color: white;
+	opacity: 0.6;
+}
+#button1{
+	margin-bottom: 2em;
+}
+.btn-info{
+	margin-top: 2em;
+}
+#button ul{
+	padding: 0;
+}
+#button2 h2{
+	margin-bottom: 1em;
+}
+.traslate{
+	height: 3em;
+	line-height: 3em;
+	transition:background 1s;
+}
+.traslate li{
+	transition: all;
+	color: black;
+	font-size: 1.5em;
+	list-style-image: url("images/icon_1.png");
+	margin-bottom: 1em;
+	vertical-align: bottom;
+}
+.traslate li:hover{
+	color: white;
+}
+.traslate:hover{
+	padding-left:2em;
+	color:white;
+	background-color: #485460;
+}
+.traslate1 li{
+	color: black;
+	transition-duration: 0.3s;
+	line-height: 3em;
+	list-style: none;
+	font-size: 1.5em;
+}
+.traslate1 li:hover{
+	color:#9b59b6;
+}
+#tags{
+	width: 30em;
+}
+#tags ul li 
+{
+	list-style: none;
+	margin:1em;
+	padding: 0.6em;
+	float:left;
+	transition: all 0.3s;
+}
+#tags ul li a
+{
+	padding: 0.7em;
+	border-radius: 5px;
+	transition: background 0.3s;
+	background-color: #f6fafb;
+	transition: background 0.3s;
+}
+#tags ul li a:hover{
+	color:#fff;
+	background: #9b59b6;
+}
+
+
+
+
+/*            导航栏响应式          */
+@media only screen and (min-width:753px) and (max-width: 972px)
+{
+   #banner ul{
+   	position: relative;
+   	left: 200px;
+   }
+}
+/*             底部响应式            */
+@media only screen and (min-width:820px) and (max-width: 1139px)
+{
+   footer div:first-child{
+	margin:0 5%; 
+}
+}
+/*             index第一部分响应            */
+@media only screen and (max-width:890px)
+{
+	#s1d{
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}   
+}
+/*        details响应式        */
+@media only screen and (max-width:1118px)
+{
+	#section6{
+	padding-top: 2%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-bottom: 2%;
+	}
+}
+@media only screen and (min-width:1118px) and (max-width:1417px)
+{
+	#section6{
+	padding-top: 2%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-bottom: 2%;
+	}
+}
+@media only screen and (min-width:1400px) and (max-width:1705px)
+{
+	#section4{
+     padding:2% 10% 5% 10%;
+}
+}
+@media only screen and (min-width:752px) and (max-width:1705px)
+{
+	#section4{
+     padding:2% 10% 5% 10%;
+	}
+ 	#section4 img{
+ 		width: 120%;
+ 	}
+}
+@media only screen and (max-width:752px)
+{
+	#section4{
+     padding:0;
+}
+#s4d1{
 	float: left;
 	width: 100%;
+	margin-bottom: 5em;
 }
-.flx-skill p.flx-skill-title {
+#s4d2{
+	width: 40%;
 	float: left;
-	font-weight:700;
-	font-size: 1em;
-	margin-bottom: 10px;
+	margin-left: 120px;
 }
-.flx-skill p.flx-skill-number {
-	float: right;
-	font-weight:700;
-	font-size: 1em;
-	margin-bottom: 10px;
 }
 
-.progress-bar {
-	height: 10px;
-	margin:10px 0;
-	position: relative;	
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	z-index:0;
-	background-color:#ebebeb;
-}
-.progress-bar.flexible > span {
-	background-color:#B667BD;
-}
-.progress-bar > span {
-	display: block;
-	height: 10px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;	
-	position: relative;
-	overflow: hidden;
-	z-index:0;
-}
-.progress-bar > span:after, .animate > span > span {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	background-image: -webkit-gradient(linear, 0 0, 100% 100%,  color-stop(.25, rgba(255, 255, 255, .2)),  color-stop(.25, transparent), color-stop(.5, transparent),  color-stop(.5, rgba(255, 255, 255, .2)),  color-stop(.75, rgba(255, 255, 255, .2)),  color-stop(.75, transparent), to(transparent)  );
-	background-image: -moz-linear-gradient(  -45deg,  rgba(255, 255, 255, .2) 25%,  transparent 25%,  transparent 50%,  rgba(255, 255, 255, .2) 50%,  rgba(255, 255, 255, .2) 75%,  transparent 75%,  transparent  );
-	z-index: 1;
-	-webkit-background-size: 50px 50px;
-	-moz-background-size: 50px 50px;
-	background-size: 50px 50px;
-	-webkit-animation: move 2s linear infinite;
-	-moz-animation: move 2s linear infinite;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	color:#fff;
-	text-shadow:0 1px 0 rgba(0,0,0,.1);
-	text-align:right;
-}
-.animate > span:after {
-	display: none;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
