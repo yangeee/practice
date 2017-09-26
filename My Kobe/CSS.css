@@ -1,11 +1,9 @@
 body{
 	background-color: #f6f5ec;
+padding: 10px 20px 20px 10px;
 	
 }
 p{
 	font-size: 18px;
 	margin: 20px 0px 0px 10px;
-}
-body{
-	padding: 10px 20px 20px 10px;
 }

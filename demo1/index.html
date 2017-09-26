@@ -10,7 +10,6 @@
 	<link href="1.css" rel="stylesheet" type="text/css">
 	<link href="bt\font-awesome\css\font-awesome.min.css" rel="stylesheet">
 	<link href="bt\bootstrap.min.css" rel="stylesheet">
-	<link href="bt\bootstrap.min.js" rel="stylesheet">
 </head>
 <body>
 	<!--                导航条                  -->
@@ -31,7 +30,50 @@
 					<li><a href="about.html">About</a></li>
 					<li><a href="blog.html">Blog</a></li>
 				</ul>
+				<ul class="nav navbar-nav">
+					<li><a href="#" onclick="displayDiv()" id="111">Login</a></li>
+					<li><a href="#" onclick="displayDiv1()">Sign up</a></li>
+				</ul>
 			</nav>
+			<div id="login">
+				<span id="triangle-up"></span>
+				<div  class="login-box">
+					<form>
+						<fieldset>
+							<label for="email">Email Address</label>
+							<input type="text" name="email" class="input1">
+						</fieldset>
+						<fieldset>
+							<label for="password">Password</label>
+							<input type="password" name="password" class="input1">
+						</fieldset>
+						<label for="checkbox"><input type="checkbox" id="checkbox" />Remember me</label>
+						<input type="submit" class="btn-submit" value="login" />
+						<span><a href="#">Forgot your password?</a></span>
+					</form>
+				</div>
+			</div>
+
+			<div id="sign1">
+				<span id="triangle-up-1"></span>
+				<div  class="sign1-box">
+					<form>
+						<fieldset>
+							<label for="email">Email Address *</label>
+							<input type="text" name="email" class="input1">
+						</fieldset>
+						<fieldset>
+							<label for="password">Password *</label>
+							<input type="password" name="password" class="input1">
+						</fieldset>
+						<fieldset>
+							<label for="password">Confirm Password *</label>
+							<input type="password" name="password" class="input1">
+						</fieldset>
+						<input type="submit" class="btn-submit" value="login" />
+					</form>
+				</div>
+			</div>
 		</div>
 	</header>
 
@@ -42,8 +84,8 @@
 				<h1>MONEY AND THE POWER</h1>
 				<br>
 				<p>Slide is mobile payment solution to easily send money to 
-				frieds.Lorem ipsum dolor sit amet, consectetur elit, sed do
-				eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					frieds.Lorem ipsum dolor sit amet, consectetur elit, sed do
+					eiusmod tempor incididunt ut labore et dolore magna aliqua.
 				</p>
 				<a href="#" class="myButton">SIGN UP</a>
 				<a href="details.html">LEARN MORE</a>
@@ -67,43 +109,23 @@
 			</div>
 			<div class="s2d">
 				<i class="fa fa-gear fa-3x"></i>
-				<h3><a href="detals">Lorem ipsum dolor sit amet consectetur adipisicing.</a></h3>
+				<h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing.</a></h3>
 				<p>Lorem ipsum dolor sit amet, consctetur adipisicing elit, sed do eiusmod.</p>
 			</div>
 		</section>
 	</main>
 	<!--                第三部分              -->
-  <footer>
-  	<div>
-  	    <p>Aoye©2017. All Rights Reversed</p>
-  	</div>
-  	<div id="sign">
-  		<a href="https://github.com/qq534650291/" target="_blank" class="myButton icon1" id="b"><i class="fa fa-github"></i></a>
-        <a href="https://www.freecodecamp.cn/qq534650291/" target="_blank" class="myButton icon3"><i class="fa fa-free-code-camp"></i></a>
-        <a href="https://user.qzone.qq.com/534650291/" target="_blank" class="myButton icon2"><i class="fa fa-qq"></i></a>
-         <a href="https://codepen.io/AOYE/" target="_blank" class="myButton icon1"><i class="fa fa-codepen"></i></a>
-  	</div>
-  </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	</body>
-	</html>
+	<footer>
+		<div>
+			<p>Aoye©2017. All Rights Reversed</p>
+		</div>
+		<div id="sign">
+			<a href="https://github.com/qq534650291/" target="_blank" class="myButton icon1" id="b"><i class="fa fa-github"></i></a>
+			<a href="https://www.freecodecamp.cn/qq534650291/" target="_blank" class="myButton icon3"><i class="fa fa-free-code-camp"></i></a>
+			<a href="https://user.qzone.qq.com/534650291/" target="_blank" class="myButton icon2"><i class="fa fa-qq"></i></a>
+			<a href="https://codepen.io/AOYE/" target="_blank" class="myButton icon1"><i class="fa fa-codepen"></i></a>
+		</div>
+	</footer>
+	<script type="text/javascript" src="1.js"></script>
+</body>
+</html>
