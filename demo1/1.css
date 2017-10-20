@@ -19,7 +19,7 @@ body{
 	margin-right: 15%;
 }
 .navbar-nav li{
-	transition:background,0.5s;
+	transition:background 0.5s;
 	height: 100%;
 }
 .navbar-nav li:hover{

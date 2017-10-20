@@ -1,0 +1,147 @@
+body{
+	margin: 0;
+}
+header{
+	position:relative;
+	height: 512px; 
+	color: rgb(255, 255, 255);  
+}
+.beijing{
+	display: none;
+}
+#beijing1{
+	background-image: url(iamge/bg0.jpg);
+}
+#beijing2{
+	background-image: url(iamge/bg1.jpg);
+}
+#beijing3{
+	background-image: url(iamge/bg2.jpg);
+}
+#beijing4{
+	background-image: url(iamge/bg3.jpg);
+}
+nav{
+	margin: 0;
+	max-width: 100%;
+}
+nav ul{
+	list-style: none;
+} 
+#nav_li{
+	position: absolute; 
+	top: 1px; 
+	left: 40%;
+	height: 80px;
+}
+#nav_li li{
+	display: inline;
+}
+#nav_li li a{
+	height: 80px;
+	padding:35 15px;
+	text-decoration: none;
+	line-height: 80px;
+	color: white;
+	font-size: 1.2em;
+	transition: background-color 0.3s;
+}
+#nav_li li a:hover{
+	text-decoration: none;
+	color: white;
+	box-shadow: 0px 1px rgb(255, 255, 255), 0px 2px rgb(255, 255, 255), 0px 3px rgb(255, 255, 255); 
+	background-color: rgba(255, 255, 255, 0.25);
+}
+#nav_logo{
+	position: absolute;
+	top:26px;
+	left: 24%;
+}
+#nav_button{
+	position: absolute; 
+	top: 4%;
+	left: 70%;
+	color: white;
+	font-size: 1.2em;
+	height: 30px;
+	border: 1px solid white;
+	border-radius: 4px;
+	padding: 8px;
+	margin-left: 2%;
+	transition: background-color 0.3s;
+	transition: border-color 0.3s;
+	text-decoration: none;
+}
+#nav_button:hover{
+	text-decoration: none;
+	background-color: #019ee4;
+	border-color: #019ee4;
+}
+#header_content div{
+	display: none;
+}
+#header_content{
+	position: absolute;
+	top: 23%;
+	left: 24%;
+	color: #fefefe;
+}
+#header_content h1{
+	font-size: 48px;
+	font-weight: 900;
+}
+#header_content h2{
+	line-height: 1.4;
+    font-size: 36px;
+    font-weight: 700; 
+}
+#header_content a{
+	position: relative;
+	text-decoration: none;
+	color: #fefefe;
+	display: block;
+    width: 240px;
+    padding: 10px 0;
+    margin-top: 30px;
+    background-color: #03a0e5;
+    border-radius: 5px;
+    text-indent: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+#header_content a:hover{
+	background-color: #018fcd;
+}
+#header_content i{
+	position: relative;
+	left: 30%;
+}
+.dot{
+	text-decoration: none;
+	position: absolute;
+	top: 90%;
+	width: 8px;
+	height: 8px;
+	background-color: #8e8d93;
+	border-radius: 50%;
+	padding: 1px;
+}
+.active{
+	border: 1px solid white; 
+	background-clip: content-box; 
+	background-color: white; 
+	background-position: 0px 0px;
+}
+#dot1{
+	left: 24%;
+}
+#dot2{
+	left: 25.5%;
+}
+#dot3{
+	left: 27%;
+}
+#dot4{
+	left: 28.5%;
+}
+
