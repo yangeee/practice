@@ -1,0 +1,258 @@
+
+body{
+	margin: 0;
+	
+	font-family: "Helvetica Neue","PingFang SC","Myriad Pro","Hiragino Sans GB","microsoft yahei";
+}
+ul, ol { padding: 0;list-style: none;}
+nav{
+	position: relative;
+	height: 512px;
+}
+.nav_ul{
+	position: relative;
+	z-index: 1;
+}
+.nav_ul li{
+	list-style: none;
+	display: inline;
+	margin: 0 20px;
+}
+.nav_ul li a{
+	text-decoration: none;
+	height: 80px;
+	padding:35 15px;
+	line-height: 80px;
+	color: white;
+	font-size: 1.2em;
+	transition: background-color 0.3s;
+}
+.nav_ul li a:hover{
+    box-shadow: 0px 1px rgb(255, 255, 255), 0px 2px rgb(255, 255, 255), 0px 3px rgb(255, 255, 255); 
+	background-color: rgba(255, 255, 255, 0.25);
+}
+.nav_li{
+	position: absolute;
+	left: 20%;
+}
+.nav_logo{
+	position: relative;
+	top:10px;
+}
+.nav_button{ 
+	color: white;
+	font-size: 1.2em;
+	height: 10px;
+	border: 1px solid white;
+	border-radius: 4px;
+	padding: 5px;
+	transition: background-color 0.3s;
+	transition: border-color 0.3s;
+	text-decoration: none;
+}
+.nav_button:hover{
+	background-color: #019ee4;
+	border-color: #019ee4;
+}
+.header_beijing{ 
+	width: 1920px; 
+	height: 512px;
+	margin: 0px auto; 
+	position: relative; 
+	top: -16px;
+}
+.beijing_ul{
+	width:1920px;
+	height:512px;
+	position:relative;
+}
+.beijing_ul li{ 
+	width:1920px; 
+	height:512px;
+	overflow:hidden; 
+	float:left;
+}
+.beijing_ul ul{ 
+	position:absolute; 
+	left:0; 
+	top:0px; 
+	width:9600px;
+}
+.header_beijing ol{ 
+	position:absolute; 
+	left:21%; 
+	bottom:5%; 
+	line-height:20px;
+}
+.header_beijing ol li{ 
+	float: left;
+	font-size: 0px;
+	text-decoration: none;
+	width: 8px;
+	height: 8px;
+	background-color: #8e8d93;
+	border-radius: 50%;
+	padding: 1px;
+	margin-right: 15px; 
+	cursor: pointer;
+}
+.header_beijing ol li.current{ 
+	border: 1px solid white; 
+	background-clip: content-box; 
+	background-color: white; 
+	background-position: 0px 0px;
+}
+#header_content1{
+	position: absolute;
+	top: 22%;
+	left: 400px;
+	color: #fefefe;
+}
+#header_content5{
+	position: absolute;
+	top: 22%;
+	left: 8080px;
+	color: #fefefe;
+}
+#header_content2{
+	position: absolute;
+	top: 22%;
+	left: 2320px;
+	color: #fefefe;
+}
+#header_content3{
+	position: absolute;
+	top: 22%;
+	left: 4240px;
+	color: #fefefe;
+}
+#header_content4{
+	position: absolute;
+	top: 22%;
+	left: 6160px;
+	color: #fefefe;
+}
+.header_content h1{
+	font-size: 48px;
+	font-weight: 200;
+}
+.header_content h2{
+	line-height: 1.4;
+    font-size: 36px;
+    font-weight: 200; 
+}
+.header_content a{
+	position: relative;
+	text-decoration: none;
+	color: #fefefe;
+	display: block;
+    width: 240px;
+    padding: 10px 0;
+    margin-top: 30px;
+    background-color: #03a0e5;
+    border-radius: 5px;
+    text-indent: 20px;
+    font-size: 25px;
+    font-weight: 200;
+}
+.header_content a:hover{
+	background-color: #018fcd;
+}
+.header_content i{
+	position: relative;
+	left: 30%;
+}
+.section_white{
+	position: absolute;
+	left: 25%;
+	margin:30px auto;
+	overflow: hidden;
+}
+.sw1{
+	float: left;
+	width: 260px;
+	text-align: center;
+	margin-right: 80px;
+}
+.sw1 i{
+	color: #019ee4;
+	position: relative;
+	top: 20px;
+}
+.sw1 h2{
+	font-size: 1.8em;
+	color: #019ee4;
+	font-weight: 200;
+}
+.sw1 p{
+	font-size: 0.9em;
+	color: #717678;
+}
+.sw2{
+	float: left;
+	width: 260px;
+	text-align: center;
+	margin-right: 80px;
+}
+.sw2 i{
+	color: #019ee4;
+	position: relative;
+	top: 20px;
+}
+.sw2 h2{
+	font-size: 1.8em;
+	color: #019ee4;
+	font-weight: 200;
+}
+.sw2 p{
+	font-size: 0.9em;
+	color: #717678;
+}
+.sw3{
+	float: left;
+	width: 260px;
+	text-align: center;
+}
+.sw3 i{
+	color: #019ee4;
+	position: relative;
+	top: 20px;
+}
+.sw3 h2{
+	font-size: 1.8em;
+	color: #019ee4;
+	font-weight: 200;
+}
+.sw3 p{
+	font-size: 0.9em;
+	color: #717678;
+}
+.sw4{
+	position:relative;
+	clear: both;
+	font-weight: 400;
+	width: 840px;
+	padding-left: 40px;
+	line-height: 30px;
+}
+.section_white h2{
+	font-family: "楷体";
+	font-weight: bold;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 40px;
+}
+.section_roll{
+	position: relative;
+	top: 450px;
+	width: 1920px;
+	height: 600px;
+}
+.roll_1{
+	position: absolute;
+	width: 10000px;
+	height: 240px;
+}
+.roll_1 li{
+	float: left;
+}

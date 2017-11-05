@@ -1,20 +1,23 @@
 $(function(){
-	$("#header_content div").eq(0).show();
 	$(".dot").click(function(){
 		$(".dot").removeClass("active");
-	})
+		$(".bg_li").removeClass("bg_on");
+	});
 	$("#dot1").click(function(){
 		$(this).addClass("active");
-		$("#beijing1").show();
+		$(".bg_slide1").addClass("bg_on");
 	});
 	$("#dot2").click(function(){
 		$(this).addClass("active");
+		$(".bg_slide2").addClass("bg_on");
 	});
 	$("#dot3").click(function(){
 		$(this).addClass("active");
+		$(".bg_slide3").addClass("bg_on");
 	});
 	$("#dot4").click(function(){
 		$(this).addClass("active");
+		$(".bg_slide4").addClass("bg_on");
 	});
 
-})
+});
