@@ -1,0 +1,92 @@
+body{margin:0; padding:0; background-color: #00BBDE;font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;
+}
+.first{
+	display: flex;
+	justify-content: center;
+	margin-top: 60px;
+}
+.second{
+	width: 100%;
+	margin-top: 50px;
+}
+input{
+	background:transparent;
+	background-position: 3px;
+	border:0px solid #ffffff;
+	border-bottom:1px solid #35cded;
+	font-size: 20px;
+	width: 78%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+input:focus{
+	border:0px solid #ffffff;
+	border-bottom:1px solid #35cded;
+	outline:none; 
+	color: white;
+}
+
+a.fa{
+	position: relative;
+	top:-30px;
+	left: 84%;
+	text-decoration: none;
+	color:#E0EEE0;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #E0EEE0; opacity:1; 
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #E0EEE0;opacity:1;
+}
+input:-ms-input-placeholder{
+    color: #E0EEE0;opacity:1;
+}
+input::-webkit-input-placeholder{
+    color: #E0EEE0;opacity:1;
+}
+.myButton{
+	display: flex;
+	justify-content:center;
+	margin-right: 10%;
+	margin-left: 10%;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	background-color: #4dcfe7;
+	font-size:15px;
+	font-weight:bold;
+	padding:9px 29px;
+	text-decoration:none;
+}
+.myButton:hover {
+	opacity: 0.7;
+	transition: 0.3s;
+}
+.login{
+	width: 80%;
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-top: 10%;
+}
+.login-left{
+	float: left;
+	text-decoration: none;
+	color: #E0EEE0;
+}
+.login-right{
+	float: right;
+	text-decoration: none;
+	color: #E0EEE0;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	margin-top:11rem;
+}
+.footer a{
+	text-decoration: none;
+	color:#E0FFFF;
+}

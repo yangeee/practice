@@ -1,0 +1,46 @@
+body{margin:0; padding:0;font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+}
+.main{
+	width: 94%;
+	padding-left: 6%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: white;
+	background-color: #00BBDE; 
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.left{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	font-size: 1.3em;
+}
+.left i{
+	margin-right: 10px;
+}
+.center{
+	flex: 1;
+}
+.right{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+}
+.right i{
+	position: relative;
+	top:3px;
+}
+.right a{
+	margin-left: 30px;
+	margin-right: 10px;
+	font-size: 1.3em;
+}
+
