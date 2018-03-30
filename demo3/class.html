@@ -2,24 +2,56 @@
 <html>
 <head>
 	<meta charset="utf-8">
-  <meta id="viewport" content="width=device-width, user-scalable=yes,initial-scale=1" name="viewport" />
-  <link rel="stylesheet" type="text/css" href="class.css">
-  <link href="font-awesome\css\font-awesome.min.css" rel="stylesheet">
+	<meta id="viewport" content="width=device-width, user-scalable=yes,initial-scale=1" name="viewport" />
+	<link rel="stylesheet" type="text/css" href="class.css">
+	<link href="font-awesome\css\font-awesome.min.css" rel="stylesheet">
+	<script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
 	<title>class</title>
 </head>
 <body>
 	<div class="main">
 		<div class="left">
-		<i class="fa fa-github fa-2x"></i>
-		<span>班课</span>
+			<i class="fa fa-github fa-2x"></i>
+			<span>班课</span>
 		</div>
 		<div class="center">
 		</div>
 		<div class="right">
-		<i class="fa fa-plus fa-2x"></i>
-		<a href="#">帮助</a>
+			<i class="fa fa-plus fa-2x"></i>
+			<a href="#">帮助</a>
 		</div>
 	</div>
-
+	<div class="weather">
+		<div id="weather">
+			立即完善信息有机会获得蓝豆
+		</div>
+	</div>
+	<hr>
+	<div class="content">
+		<img src="2.jpg">
+		<div class="content_1">
+			
+		</div>
+	</div>
+	<hr>
 </body>
+	<script type="text/javascript">
+		$(document).ready(function(e){
+			$.ajax({
+          type:"post",
+          url:"http://112.74.55.80/class",
+          data:{"class_id":2},
+          dataType:"json",
+          success:function(data){
+          var abs="<span class='a1'>"+data.class_name+"</span>";
+          var abd="<span class='a1'>"+data.course_name+"</span>";
+          var abf="<span class='a2'>"+data.teacher_name+' '+data.class_grade+"</span>";
+           $(".content_1").append(abs,abd,abf);
+          },
+          error:function(){
+            alert("数据请求错误！");
+          }
+				 });
+		});
+	</script>
 </html>
