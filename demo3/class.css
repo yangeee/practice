@@ -47,6 +47,8 @@ a{
 	height: 30px;
 	display: flex;
 	align-items: center;
+	flex-wrap: nowrap;
+	justify-content:center;
 }
 .weather1{
 	color: #00BBDE;
