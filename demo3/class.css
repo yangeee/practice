@@ -44,7 +44,13 @@ a{
 	font-size: 1.3rem;
 }
 .weather{
-	height: 20px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+.weather1{
+	color: #00BBDE;
+	font-size: 1.2rem;
 }
 hr{
 	opacity: 0.2;
