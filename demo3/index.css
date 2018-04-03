@@ -5,6 +5,10 @@ body{margin:0; padding:0; background-color: #00BBDE;font-family:Tahoma,Arial,Rob
 	justify-content: center;
 	margin-top: 60px;
 }
+.first img{
+	width: 40%;
+	height: 40%;
+}
 .second{
 	width: 100%;
 	margin-top: 50px;
@@ -17,7 +21,8 @@ input{
 	font-size: 20px;
 	width: 78%;
 	margin-left: 10%;
-	margin-right: 10%;
+	margin-right: 10%; 
+	color: white;
 }
 input:focus{
 	border:0px solid #ffffff;
@@ -84,7 +89,7 @@ input::-webkit-input-placeholder{
 .footer{
 	display: flex;
 	justify-content: center;
-	margin-top:11rem;
+	margin-top: 8rem;
 }
 .footer a{
 	text-decoration: none;

@@ -49,6 +49,7 @@ a{
 	align-items: center;
 	flex-wrap: nowrap;
 	justify-content:center;
+	margin-top:2%;
 }
 .weather1{
 	color: #00BBDE;

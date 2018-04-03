@@ -44,7 +44,7 @@
 			<a href=""><i class="fa fa-search fa-2x"></i><br>发现</a>
 			</div>
 			<div class="footer3">
-			<a href="">&nbsp;<i class="fa fa-user fa-2x"></i><br>我的</a>
+			<a href="user.html">&nbsp;<i class="fa fa-user fa-2x"></i><br>我的</a>
 			</div>
 		</div>
 	</div>
@@ -54,6 +54,7 @@
 		$(document).ready(function(e){
 			$.ajax({
           type:"post",
+          async:"false",
           url:"http://112.74.55.80/class",
           data:{"class_id":1},
           dataType:"json",
@@ -68,9 +69,10 @@
           }
 				 });
 			$.ajax({
-          type:"get",
+          type:"post",
           url: 'http://query.yahooapis.com/v1/public/yql',
-          dataType:"jsonp",
+          async:"false",
+          dataType:"json",
           data:{
           	q: "select * from json where url=\"https://www.sojson.com/open/api/weather/json.shtml?city=株洲\"",    
             format: "json" 
