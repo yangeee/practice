@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>user</title>
+  <meta charset="utf-8">
+  <meta id="viewport" content="width=device-width, user-scalable=yes,initial-scale=1" name="viewport" />
+  <link rel="stylesheet" type="text/css" href="user.css">
+  <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+  <link href="font-awesome\css\font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+   <div class="main">
+    <div class="left">
+      <i class="fa fa-user fa-2x"></i>
+      <span>我的</span>
+    </div>
+    <div class="center">
+    </div>
+    <div class="right">
+      <a href="#">帮助</a>
+    </div>
+  </div>
+  <div class="second">
+    <div class="right">
+    <img src="4.jpg">
+    杨艺
+    </div>
+    <div class="center">
+      
+    </div>
+    <div class="right">
+    <span>></span>
+    </div>
+  </div>
+  <table class="wrap">
+    <tr>
+      <th>9</th>
+      <th class="border-left">9</th>
+      <th class="border-left">9</th>
+      <th class="border-left">9</th>
+    </tr>
+    <tr>
+    <td>经验值</td>
+    <td class="border-left">魅力值</td>
+    <td class="border-left">蓝豆</td>
+    <td class="border-left">心意</td>
+    </tr>
+  </table>  
+  <hr class="hr1">
+  <div class="third span-right">
+   我的空间<span>></span>
+  </div>
+  <hr>
+  <div class="fourth span-right">
+   我的收藏<span>></span>
+  </div>
+  <hr>
+  <div class="fifth span-right">
+   收到的心意、卡片<span>></span>
+  </div>
+  <hr>
+  <hr class="hr1">
+  <div class="sixth span-right">
+   分享给朋友<span>></span><span class="span-six">累计分享成功0次</span>
+  </div>
+  <hr>
+  <hr class="hr1">
+   <div class="seventh span-right">
+   设置<span>></span>
+  </div>
+  <hr>
+
+    <div class="footer">
+      <div class="footer1">
+      <a href="class.html"><i class="fa fa-github fa-2x"></i><br>班课</a>
+      </div>
+      <div class="footer2">
+      <a href=""><i class="fa fa-search fa-2x"></i><br>发现</a>
+      </div>
+      <div class="footer3">
+      <a href="">&nbsp;<i class="fa fa-user fa-2x"></i><br>我的</a>
+      </div>
+    </div>
+
+  <script type="text/javascript">
+    $(document).ready(function(e){
+      
+        $.ajax({
+          type:"post",
+          url:"http://112.74.55.80/login",
+          data:{user_name:$("#username").val(),pwd:$("#psw").val()},
+          dataType:"json",
+          success:function(data){
+           var 
+          }
+        });
+
+    });
+  </script>
+</body>
+</html>

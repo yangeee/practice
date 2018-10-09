@@ -1,0 +1,33 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd server && node index.js",
+    "dev": "roadhog server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yangeee/React_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yangeee/React_practice/issues"
+  },
+  "homepage": "https://github.com/yangeee/React_practice#readme",
+  "dependencies": {
+    "antd": "^3.5.4",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.7.0",
+    "json-server": "^0.13.0"
+  }
+}

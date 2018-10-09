@@ -1,0 +1,186 @@
+<!doctype>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8">
+	<meta  http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="AOYE demo details ">
+	<link href="1.css" rel="stylesheet" type="text/css">
+	<link href="bt\font-awesome\css\font-awesome.min.css" rel="stylesheet">
+	<link href="bt\bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+	<!--                导航条                  -->
+	<header id="banner" class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<a class="navbar-brand" href="#">
+				<img src=images/a.png alt="Aoye" title="My name is Aoye"/>
+			</a>
+			<button type="button" data-toggle="collapse" data-target="#navbar" class="navbar-toggle collapsed">
+				<span class="sr-only">切换导航</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<nav id="navbar" role="navigation" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="blog.html">Blog</a></li>
+				</ul>
+				<ul class="nav navbar-nav">
+					<li><a href="#" onclick="displayDiv()">Login</a></li>
+					<li><a href="#" onclick="displayDiv1()">Sign up</a></li>
+				</ul>
+			</nav>
+			<div id="login">
+				<span id="triangle-up"></span>
+				<div  class="login-box">
+					<form>
+						<fieldset>
+							<label for="email">Email Address</label>
+							<input type="text" name="email" class="input1">
+						</fieldset>
+						<fieldset>
+							<label for="password">Password</label>
+							<input type="password" name="password" class="input1">
+						</fieldset>
+						<label for="checkbox"><input type="checkbox" id="checkbox" />Remember me</label>
+						<input type="submit" class="btn-submit" value="login" />
+						<span><a href="#">Forgot your password?</a></span>
+					</form>
+				</div>
+			</div>
+
+			<div id="sign1">
+				<span id="triangle-up-1"></span>
+				<div  class="sign1-box">
+					<form>
+						<fieldset>
+							<label for="email">Email Address *</label>
+							<input type="text" name="email" class="input1">
+						</fieldset>
+						<fieldset>
+							<label for="password">Password *</label>
+							<input type="password" name="password" class="input1">
+						</fieldset>
+						<fieldset>
+							<label for="password">Confirm Password *</label>
+							<input type="password" name="password" class="input1">
+						</fieldset>
+						<input type="submit" class="btn-submit" value="login" />
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--                第一部分              -->
+	<main>
+		<section id="section3">
+			<div>
+				<p>Blog</p>
+			</div>
+			<div>
+				<p>Welcome to Our Website</p>
+			</div>
+		</section>
+		<!--                第二部分              -->
+		<section id="section7">
+			<div id="s7d">
+				<h2><a href="#">Lorem Ipsum is simply dummy text</a></h2>
+				<div class="blog_img">
+					<img src="images/blog-img1.jpg">
+				</div>
+				<div class="s7d1">
+					<ul>
+						<li>Posted on<br>January 20, 2014</li>
+						<li>Tags<br><a href="#">Website&nbsp|&nbspDesign</a></li>
+						<li>Comments<br>8</li>
+					</ul>
+				</div>
+				<div class="s7d2">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					<br>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+				</div>
+				<h2><a href="#">Lorem Ipsum is simply dummy text</a></h2>
+				<div class="blog_img">
+					<img src="images/blog-img2.png">
+				</div>
+				<div class="s7d1">
+					<ul>
+						<li>Posted on<br>January 20, 2014</li>
+						<li>Tags<br><a href="#">Website&nbsp|&nbspDesign</a></li>
+						<li>Comments<br>8</li>
+					</ul>
+				</div>
+				<div class="s7d2">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					<br>
+					<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+				</div>
+			</div>
+			<div id="s8d">
+				<form id="s8df1">
+					<input type="text" name="search" value="search"  onfocus="javascript:if(this.value=='search')this.value='';" onblur="if(!value)value='search'"/>
+					<a href="#"><img src="images/search.png"></a>
+				</form>
+				<div id="button1">
+					<h2>Follow Us</h2>
+					<a href="#"  class="myButton" id="facebook"><i class="fa fa-facebook"></i></a>
+					<a href="#" class="myButton" id="twitter"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="myButton" id="google"><i class="fa fa-google-plus"></i></a>
+				</div>
+				<form>
+					<input type="text" name="e-mail" value="e-mail"  onfocus="javascript:if(this.value=='e-mail')this.value='';" onblur="if(!value)value='e-mail'"/>
+					<br>
+					<button type="button" class="btn btn-info btn-lg" >Subscribe</button>
+				</form>
+				<div id="button2">
+					<h2>Categories</h2>
+					<ul id="categories">
+						<div class="traslate"><a href="#"><li>Lorem Ipsum is simply dummy</li></a></div>
+						<div class="traslate"><a href="#"><li>Lorem Ipsum is simply dummy</li></a></div>
+						<div class="traslate"><a href="#"><li>Lorem Ipsum is simply dummy</li></a></div>
+					</ul>
+					<h2>Recent Post</h2>
+					<div>
+						<ul>
+							<div class="traslate1"><a href="#"><li>Lorem Ipsum is simply dummy</li></a></div>
+							<div class="traslate1"><a href="#"><li>Lorem Ipsum is simply dummy</li></a></div>
+							<div class="traslate1"><a href="#"><li>Lorem Ipsum is simply dummy</li></a></div>
+						</ul>
+					</div>
+					<h2>Tags</h2>
+					<div id="tags">
+						<ul>
+							<li><a href="#">design</a></li>
+							<li><a href="#">development</a></li>
+							<li><a href="#">multipurpose</a></li>
+							<li><a href="#">creative</a></li>
+							<li><a href="#">seo</a></li>
+							<li><a href="#">adverticement</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<div>
+			<p>Aoye©2017. All Rights Reversed</p>
+		</div>
+		<div id="sign">
+			<a href="https://github.com/qq534650291/" target="_blank" class="myButton icon1" id="b"><i class="fa fa-github"></i></a>
+			<a href="https://www.freecodecamp.cn/qq534650291/" target="_blank" class="myButton icon3"><i class="fa fa-free-code-camp"></i></a>
+			<a href="https://user.qzone.qq.com/534650291/" target="_blank" class="myButton icon2"><i class="fa fa-qq"></i></a>
+			<a href="https://codepen.io/AOYE/" target="_blank" class="myButton icon1"><i class="fa fa-codepen"></i></a>
+		</div>
+	</footer>
+	<script type="text/javascript" src="1.js"></script>
+</body>
+</html>

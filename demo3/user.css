@@ -1,0 +1,111 @@
+body{font-size:16px;margin:0; padding:0;font-family:Tahoma,Arial,Roboto,"Droid Sans","Helvetica Neue","Droid Sans Fallback","Heiti SC",sans-self;
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 1.3rem;
+}
+.main{
+	width: 94%;
+	padding-left: 6%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: white;
+	background-color: #00BBDE; 
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	flex-wrap: nowrap;
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	background-color: #00BBDE;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.left{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	font-size: 1.3rem;
+}
+.left i{
+	margin-right: 10px;
+}
+.center{
+	flex: 1;
+}
+.right{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	padding-right: 2%;
+}
+.right i{
+	position: relative;
+	top:3px;
+}
+.right a{
+	margin-left: 30px;
+	margin-right: 10px;
+	font-size: 1.3rem;
+}
+.second{
+	display: flex;
+	align-items: center;
+}
+.second span{
+
+}
+.second img{
+	width: 45%;
+	height: 45%;
+}
+.center{
+	flex: 1;
+}
+hr{
+	opacity: 0.3;
+}
+.hr1{
+	margin-top: 7%;
+	opacity: 0.3;
+}
+
+.span-right{
+	padding: 2%;
+}
+.span-right span{
+	float: right;
+	opacity: 0.6;
+}
+.span-six{
+	margin-right: 2%;
+	letter-spacing: 2px;
+	opacity: 0.7;
+}
+table{
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	width: 100%;
+	border-collapse: collapse;
+}
+th.border-left{
+	border-left: 1px solid #E0E0E0;
+}
+td.border-left{
+	border-left: 1px solid #E0E0E0;
+}
+th{
+	color: #00BBDE; 
+}
+td{
+	width: 25%;
+	text-align: center;
+}
